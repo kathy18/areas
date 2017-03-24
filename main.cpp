@@ -18,3 +18,29 @@ int main()
 
     return 0;
 }
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int x;
+    float y;
+    int w;
+    cout<<"ingrese el primer numero: ";
+    cin>>x;
+    cout<<"ingrese el segundo numero: ";
+    cin>>y;
+    cout<<"ingrese el tercer numero: ";
+    cin>>w;
+
+    cout<<x+y*w<<endl;
+    cout<<x/y*w<<endl;
+
+
+
+
+    return 0;
+}
+
